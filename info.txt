@@ -1,0 +1,38 @@
+===== Server side ======
+How to start working with server side?
+
+Being in folder server, open terminal and write down such commands: 
+npm install
+npm run start
+
+
+===== Client side =====
+How to start working with client side?
+
+Being in folder client, open terminal and write down such commands:
+npm install
+npm start
+
+App will be opened in the web on the localhost:3000
+
+
+=========================================================
+Short description
+
+Technology stack:
+Front-End - React, Bootstrap
+Back-End - NodeJS, Express.js, MongoDB, RESTful APIs, nanoid
+
+Successefully managed:
+
+Created Back End side using Node.js + MongoDB.
+It was possible to reduce long URLS to short ones and store the data in the database.
+I used an additional package (nanoid) to shorten the URLS. 
+CRUD operations Successefully work.
+Created a table to draw all items from the database.
+
+Such problems during work:
+
+First experience with back-end and MongoDB. Difficulties with client & server side synchronization
+!!! IMPORTANT: Used my personal credentials to work with MongoDB. It would be better to replace them with others (company, client)
+Due to lack of time, it was not possible to add the following: on UI element removal, loader, code refactoring, responsive

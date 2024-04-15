@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ----- Header Part ------ */
+.header {
+  width: 100%;
+}
+
+.header .header_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* ----- Main Part ----- */
+.main {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main .content {
+  width: 100%;
+  padding: 20px;
+}
+
+.table {
+  display: block;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
